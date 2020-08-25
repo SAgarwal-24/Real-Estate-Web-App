@@ -1,0 +1,210 @@
+    *{
+    	margin: 0px;
+    	padding: 0px;
+    }
+    .body{
+			width: 100%;
+			background: url(images/headerbg.jpg) fixed;
+			background-size:cover;
+		}
+
+
+	header{
+			width: 700px;
+			font-weight: bold;
+			font-size: 26px;
+			text-align: center;
+			text-transform: uppercase;
+			color: white;
+			border: 2px solid white;
+			padding:20px;
+			margin-bottom: 10px;
+		}
+
+		.main{
+			width: 1000px;
+			margin: auto;
+			
+		}
+
+
+		.Locations_menu{
+
+		}
+
+		.Ad_news{
+			width: 200px;
+			font-weight: bold;
+			font-size: 36px;
+			color: white;
+			font-style: arial;
+			border: 2px solid red;
+			background: black;
+			padding: 10px;
+			margin: 50px 80px 20px 200px ;
+			text-shadow: 0px 0px 50px red, 0px 0px 50px yellow,0px 0px 250px green;
+			text-align: center;
+			box-shadow: 0px 0px 20px 4px red;
+		}
+		.info_box{
+			width: 743px;
+			margin-top:100px;
+			margin-left:70px;
+			margin-right:400px;
+			margin-bottom:400px;
+			padding: 0px 80px 80px 80px;
+			float: left;
+			border:2px solid white;
+			border-radius: 10px;
+			box-shadow: 0px 0px 20px 4px orange;
+		}
+		.sub_box{
+			width: 556px;
+			margin: 60px 0px 5px 30px;
+			border: 2px solid white;
+			padding: 20px;
+			box-shadow: 0px 0px 20px 4px orange;
+		}
+		.News_title{
+			width: 400px;
+			font-weight: bold;
+			font-size: 20px;
+			text-shadow: 0px 0px 10px white;
+			padding:20px;
+		}
+		.News_Desp{
+			width: 400px;
+			font-weight: bold;
+			font-size: 20px;
+			text-shadow: 0px 0px 10px white;
+			padding:20px;
+		}
+
+		.Gallery_file{
+			width: 453px;
+			font-weight: bold;
+			font-size: 20px;
+			text-shadow: 0px 0px 10px white;
+			padding:20px;
+		}
+		.rbtn{
+			width: 700px;
+			float: left;
+			padding:10px;
+		}
+		.sbtn{
+			width: 300px;
+			padding:10px;
+			float: left;
+		}
+		.clear{
+			clear: both;
+		}
+		.del{
+			font-weight: bold;
+			text-shadow: 0px 0px 10px white;
+			background: orange;
+		}
+
+		.Srch{
+			font-weight: bold;
+			background: rgba(0,0,0,0.7);
+			
+			/*text-shadow:  0px 0px 03px #065fd4;*/
+
+		}
+		/*-------------------=---------------------------------------------------------------Header----Style--------------------------------------------------------------------------------------*/
+		header{
+			width: 1000px;
+			font-weight: bold;
+			font-size: 26px;
+			text-align: center;
+			text-transform: uppercase;
+			color: white;
+			border: 2px solid white;
+			padding:20px;
+			margin-bottom: 10px;
+		}
+
+		nav{
+			width: 1000px;
+			margin-top: 50px;
+			color: white;
+			border: 2px solid white;
+		}
+		nav ul li{
+			float: left;
+			list-style: none;
+			
+			padding:10px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: white;
+		}
+		/*-----------------------------------------Table-----tag---------------------------------------------------------------------------------*/
+		table tr td:hover {
+			background-color:rgba(10,10,10,0.2);
+			text-shadow: 0px 0px 1px orange; 
+			box-shadow: 0px 0px 13px red;
+		}
+		/*--------------------------------------------hover---on-----menu-items-------------------------------------------------------------------*/
+
+		nav ul li a:hover {
+			background-color: orange;
+			color:black;
+			font-weight: bold;
+		}
+
+		.paging{
+					}
+
+		.paging a{
+			color: yellow;
+			text-decoration: none;
+
+		}
+
+		.paging td{
+			color: black;
+		}
+
+		.paging .act{
+			background: red;
+		}
+
+	 .inactive{
+			color: black;
+		}
+
+		.paging .seprator{
+			color: white;
+		}    
+
+		.btn {
+			color: black;
+			background-color: white;
+		}
+		/*--------------------------------------------fill details-------------------------------------------------------------------*/
+		.fill_details{
+			margin-top:8px;
+			padding: 12px !important;
+			border: 2px solid white;
+		}
+
+		.topic{
+			color: #ffe484;;
+			font-size: 24px;
+			/*border: 1px solid red;*/
+			margin: 1px 0px 3px 3px;
+		}
+
+		#prop_type{
+			margin: 31px 0px 0px 4px;
+			/*border: 1px solid red;*/
+
+		}
+
+		.bor{
+			border: 1px solid red;
+		}
